@@ -14,6 +14,6 @@ export interface Hechizo {
   nivelPoder:number;
 }
 
-// RETO 1.2: Llena la lista con los tipos de magia, en este orden: Fuego, Agua, Tierra, Aire, Oscura.
+// RETO 1.2: Llena la lista con los tipos de magia, en este orden: Fuego, Agua, Tierra, Aire, Oscura
 // ("Oscura" va incluida a propósito: el Manager del backend la rechaza y queremos ver ese error 400)
 export const TIPOS_MAGIA: string[] = ["Fuego", "Agua", "Tierra", "Aire", "Oscura"];
