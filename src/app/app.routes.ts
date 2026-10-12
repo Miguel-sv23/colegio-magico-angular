@@ -28,4 +28,5 @@ export const routes: Routes = [
 
   { path: 'hechizos', component: HechizoBuscador },
   { path: 'hechizos/nuevo', component: HechizoForm },
+  { path: '**', redirectTo: '' },
 ];
